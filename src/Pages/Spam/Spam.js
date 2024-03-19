@@ -7,10 +7,10 @@ export const Spam = () => {
     <div className="main">
       <div className="Filter">
         <label>
-          <input type="checkbox" /> Show unread mails
+          <input type="checkbox" /> Show unRead Mails
         </label>
         <label>
-          <input type="checkbox" /> Show read mails
+          <input type="checkbox" /> Show Read Mails
         </label>
       </div>
       <h3 className="spam">Spam:{spamData.length}</h3>
